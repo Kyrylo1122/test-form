@@ -1,3 +1,6 @@
+ul {
+  list-style: none;
+}
 .registration {
   outline: 1px solid brown;
   padding: 50px;
@@ -10,4 +13,8 @@
 }
 .registration input {
   background-color: transparent;
+}
+label {
+  display: flex;
+  flex-direction: column;
 }
